@@ -35,6 +35,8 @@
     is.equal(maria.toString(), "Ms. Maria");
     is.equal(john instanceof Person, true);
     is.equal(maria instanceof Person, true);
+    is.equal(maria.hasOwnProperty("toString"), false);
+    is.equal(maria.hasOwnProperty("name"), true);
 
 })(is('proto_chain'))
   
