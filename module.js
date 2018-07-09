@@ -2,17 +2,17 @@
     /*
         Module declaration as object liternal. It is used without new keyword.
     */
-    var myModule = {
-      myProperty: 'value',
+    // var myModule = {
+    //   myProperty: 'value',
   
-      getMyProperty: function () {
-        return this.myProperty
-      },
+    //   getMyProperty: function () {
+    //     return this.myProperty
+    //   },
   
-      setMyProperty: function(value){
-          this.myProperty = value;
-      }
-    }
+    //   setMyProperty: function(value){
+    //       this.myProperty = value;
+    //   }
+    // }
   
     is.equal(myModule.getMyProperty(), 'value')
     myModule.setMyProperty('new value');
